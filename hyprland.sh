@@ -2,13 +2,11 @@
 
 sudo pacman -S neofetch btop thunderbird 
 
-sudo apt install wayland-protocols xwayland build-essential mako-notifier libnotify
-
 # Hyprland installation
-sudo apt install hyprland xdg-desktop-portal xdg-desktop-portal-hyprland
+sudo pacman -S xdg-desktop-portal-hyprland hyprland xdg-desktop-portal mako libnotify polkit-kde-agent qt5-wayland qt6-wayland waybar wofi grim slurp wl-clipboard wf-recorder sddm
 
-# Networking etc
-sudo pacman -S lxqt-policykit network-manager network-manager-gnome
+# Fonts
+sudo pacman -S ttf-font-awesome noto-fonts noto-fonts-extra ttf-liberation adobe-source-code-pro-fonts awesome-terminal-fonts
 
 # Printing
 
