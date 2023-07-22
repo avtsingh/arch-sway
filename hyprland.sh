@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman -S neofetch btop thunderbird mpv imv bc alacritty libreoffice-fresh
+sudo pacman -S neofetch btop firefox thunderbird mpv imv bc alacritty libreoffice-fresh chromium bleachbit mixxx inkscape gimp 
 
 # Hyprland installation
 sudo pacman -S hyprland xdg-desktop-portal-hyprland mako libnotify polkit-kde-agent qt5-wayland qt6-wayland waybar wofi grim slurp wl-clipboard wf-recorder sddm xdg-user-dirs rsync lxappearance jq nb
