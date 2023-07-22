@@ -1,9 +1,9 @@
 #!/bin/sh
 
-sudo pacman -S neofetch btop thunderbird 
+sudo pacman -S neofetch btop thunderbird mpv imv bc alacritty libreoffice-fresh
 
 # Hyprland installation
-sudo pacman -S xdg-desktop-portal-hyprland hyprland xdg-desktop-portal mako libnotify polkit-kde-agent qt5-wayland qt6-wayland waybar wofi grim slurp wl-clipboard wf-recorder sddm
+sudo pacman -S hyprland xdg-desktop-portal-hyprland mako libnotify polkit-kde-agent qt5-wayland qt6-wayland waybar wofi grim slurp wl-clipboard wf-recorder sddm xdg-user-dirs rsync lxappearance jq nb
 
 # Fonts
 sudo pacman -S ttf-font-awesome noto-fonts noto-fonts-extra ttf-liberation adobe-source-code-pro-fonts awesome-terminal-fonts
@@ -19,7 +19,7 @@ sudo pacman -S thunar thunar-archive-plugin thunar-volman file-roller gvfs tumbl
 sudo pacman -S gstreamer gst-libav gst-plugins-base gst-plugins-good gst-plugins-ugly gst-plugin-pipewire pipewire pipewire-alsa pipewire-audio pipewire-docs pipewire-ffado pipewire-jack pipewire-pulse pipewire-roc wireplumber
 
 # system and network protocols
-sudo apt install acpi acpid avahi nftables firewalld networkmanager bluez dhclient dhcpcd dnsmasq iwd modemmanager 
+sudo apt install acpi acpid avahi nftables firewalld networkmanager bluez dhclient dhcpcd dnsmasq iwd modemmanager network-manager-applet
 sudo systemctl enable acpid
 sudo systemctl enable avahi
 
