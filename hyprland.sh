@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman -S neofetch btop firefox thunderbird mpv imv bc alacritty libreoffice-fresh chromium bleachbit mixxx inkscape gimp 
+sudo pacman -S neofetch btop firefox thunderbird mpv imv bc alacritty libreoffice-fresh chromium bleachbit mixxx inkscape gimp evince
 
 # Hyprland installation
 sudo pacman -S hyprland xdg-desktop-portal-hyprland mako libnotify polkit-kde-agent qt5-wayland qt6-wayland waybar wofi grim slurp wl-clipboard wf-recorder sddm xdg-user-dirs rsync lxappearance jq nb
@@ -10,7 +10,7 @@ sudo pacman -S ttf-font-awesome noto-fonts noto-fonts-extra ttf-liberation adobe
 
 # Printing
 
-sudo pacman -S cups ipp-usb cups-pdf libusb 
+sudo pacman -S cups ipp-usb cups-pdf libusb simple-scan
 
 # Thunar
 sudo pacman -S thunar thunar-archive-plugin thunar-volman file-roller gvfs tumbler thunar-media-tags-plugin gtk3 gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb
@@ -28,9 +28,6 @@ xdg-user-dirs-update
 
 # Dependencies for ly
 sudo apt install libpam0g-dev libxcb-xkb-dev
-
-# Required packages
-sudo apt install neovim vim-scripts neofetch firefox-esr grim slurp imv bc libreoffice thunderbird cups cups-bsd cups-pdf libreoffice-lightproof-en chromium heif-gdk-pixbuf timeshift mixxx inkscape gimp bleachbit vlc vlc-plugin-pipewire 
 
 # ly install
 git clone --recurse-submodules https://github.com/fairyglade/ly
