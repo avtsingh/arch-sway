@@ -1,1 +1,1 @@
-# arch-hyprland
+# arch-sway
