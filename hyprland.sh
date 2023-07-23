@@ -6,7 +6,7 @@ sudo pacman -S neofetch btop firefox thunderbird mpv imv bc alacritty libreoffic
 sudo pacman -S hyprland xdg-desktop-portal-hyprland mako libnotify polkit-kde-agent qt5-wayland qt6-wayland waybar wofi grim slurp wl-clipboard wf-recorder sddm xdg-user-dirs rsync lxappearance jq nb
 
 # Fonts
-sudo pacman -S ttf-font-awesome noto-fonts noto-fonts-extra ttf-liberation adobe-source-code-pro-fonts awesome-terminal-fonts
+sudo pacman -S ttf-font-awesome noto-fonts noto-fonts-extra ttf-liberation adobe-source-code-pro-fonts awesome-terminal-fonts ttf-roboto-mono-nerd ttf-mononoki-nerd ttf-meslo-nerd ttf-jetbrains-mono-nerd ttf-hack-nerd ttf-go-nerd ttf-firacode-nerd ttf-cascadia-code-nerd 
 
 # Printing
 
