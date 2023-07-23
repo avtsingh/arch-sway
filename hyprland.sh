@@ -19,7 +19,7 @@ sudo pacman -S thunar thunar-archive-plugin thunar-volman file-roller gvfs tumbl
 sudo pacman -S gstreamer gst-libav gst-plugins-base gst-plugins-good gst-plugins-ugly gst-plugin-pipewire pipewire pipewire-alsa pipewire-audio pipewire-docs pipewire-ffado pipewire-jack pipewire-pulse pipewire-roc wireplumber
 
 # system and network protocols
-sudo apt install acpi acpid avahi nftables firewalld networkmanager bluez dhclient dhcpcd dnsmasq iwd modemmanager network-manager-applet
+sudo pacman -S acpi acpid avahi nftables firewalld networkmanager bluez dhclient dhcpcd dnsmasq iwd modemmanager network-manager-applet
 sudo systemctl enable acpid
 sudo systemctl enable avahi
 
