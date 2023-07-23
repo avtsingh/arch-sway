@@ -1,12 +1,9 @@
 #!/bin/sh
 
-sudo pacman -S neofetch btop firefox thunderbird mpv imv bc alacritty libreoffice-fresh chromium bleachbit mixxx inkscape gimp evince
-
-# Hyprland installation
-sudo pacman -S hyprland xdg-desktop-portal-hyprland mako libnotify polkit-kde-agent qt5-wayland qt6-wayland waybar wofi grim slurp wl-clipboard wf-recorder sddm xdg-user-dirs rsync lxappearance jq nb ly
+sudo pacman -S neofetch btop firefox thunderbird mpv imv bc alacritty libreoffice-fresh chromium bleachbit mixxx inkscape gimp evince ly lxappearance rsync xdg-user-dirs grim slurp wl-clipboard wf-recorder
 
 # Fonts
-sudo pacman -S ttf-font-awesome noto-fonts noto-fonts-extra ttf-liberation adobe-source-code-pro-fonts awesome-terminal-fonts ttf-roboto-mono-nerd ttf-mononoki-nerd ttf-meslo-nerd ttf-jetbrains-mono-nerd ttf-hack-nerd ttf-go-nerd ttf-firacode-nerd ttf-cascadia-code-nerd 
+sudo pacman -S ttf-font-awesome noto-fonts ttf-liberation adobe-source-code-pro-fonts awesome-terminal-fonts ttf-roboto ttf-roboto-mono ttf-mononoki-nerd ttf-meslo-nerd ttf-jetbrains-mono-nerd ttf-hack-nerd ttf-go-nerd ttf-firacode-nerd ttf-cascadia-code-nerd 
 
 # Printing
 
@@ -20,8 +17,6 @@ sudo pacman -S gstreamer gst-libav gst-plugins-base gst-plugins-good gst-plugins
 
 # system and network protocols
 sudo pacman -S acpi acpid avahi nftables firewalld networkmanager bluez dhclient dhcpcd dnsmasq iwd modemmanager network-manager-applet
-sudo systemctl enable acpid
-sudo systemctl enable avahi
 
 # Create folders in user directory (eg. Documents,Downloads,etc.)
 xdg-user-dirs-update
