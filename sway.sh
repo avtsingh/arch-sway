@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman -S neofetch neovim neovide btop firefox thunderbird mpv imv bc libreoffice-fresh chromium bleachbit mixxx inkscape gimp evince ly rsync xdg-user-dirs wl-clipboard wf-recorder swaybg
+sudo pacman -S neofetch neovim neovide btop firefox thunderbird mpv imv bc libreoffice-fresh chromium bleachbit mixxx inkscape gimp evince ly rsync xdg-user-dirs wf-recorder swaybg wl-clipboard
 
 # Fonts
 sudo pacman -S ttf-font-awesome noto-fonts ttf-liberation awesome-terminal-fonts ttf-roboto ttf-roboto-mono ttf-mononoki-nerd ttf-meslo-nerd ttf-jetbrains-mono-nerd ttf-hack-nerd ttf-go-nerd ttf-firacode-nerd ttf-cascadia-code-nerd 
